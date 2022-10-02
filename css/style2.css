@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+img{
+    max-width: 100%;
+}
+body {
+    background-color: rgb(126, 126, 126);
+    color: rgb(0, 0, 0);
+    font-family: charm;
+    margin: 0px ;
+    }
+header{
+    
+    align-content: center;
+    font-family: charm;
+    text-align: center;
+    border-top: 2px dashed rgba(0,0,0, .2);
+    border-bottom: 2px dashed rgba(0,0,0, .2);
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 10px 5px 10px rgba(255,255,255, .8);
+    padding: 2px 0;
+    margin: 0px auto;
+    background-image: url(../img/header.jpg);
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0, auto;
+    }
+.content{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+}
+nav{
+    flex-basis: 25vw;
+    padding: 10px;
+    margin: 0px 0; 
+    
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    margin: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255, .8)
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 2px 
+}
+nav a:hover{
+    color:black;
+    background: rgba(0,0,0, .2);
+    padding: 10px 0 0 15px;
+} 
+main{
+    flex-basis: 75vw; 
+}
+.vehicle{
+    flex-wrap: wrap;
+    
+}
+.image-box{
+    flex: 1;
+    flex-wrap:  wrap;
+    display: flex;
+    max-width: 400px;
+    background: white;
+    margin: 20px auto
+}
+h1{
+    margin: 0px auto;
+    line-height: 1.2em;
+}
+h2{
+ margin: 15px ;
+line-height: 1.2em;
+}
+p{
+ line-height: 1.1em;
+ margin: 15px 
+}
+footer{
+ width: 100%;
+ position: absolute;
+ bottom: 0;
+ position: sticky;
+ background-color: black;
+ color: white;
+ padding: 10px;
+}
+.reszletek{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    background: yellow;
+    margin: 20px 0 0 15px;
+    padding: 5px;
+    font-weight: bold;
+ }
+ .reszletek:hover{
+    color: red;
+    padding: 5px 5px 5px 10px;
+    margin: 20px 0 0 15px;
+    font-weight: bold;
+}
